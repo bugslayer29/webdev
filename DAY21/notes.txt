@@ -1,0 +1,48 @@
+ SPECIFITY:
+    SPECIFICITY means what decides which property will be apply and in what order
+
+    RULES FOR SPECIFICITY :
+
+   1. Position and order of appearance: the order in which your CSS rules appear
+
+   2.Specificity: an algorithm that determines which CSS selector has the strongest match(kon sa css selector phle lgega aur result dega)
+
+   3.Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+
+  4.Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+
+
+       The order of specificity is:
+
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+
+      To calculate the specificity, assign the value to part of the selector:
+
+1.Universal selector = 0
+2.Element selector/ pseodo Element = 1
+3.Class selector, Attribute selector, and pseodo selector = 10
+4.ID selector = 100
+5.INLINE style = 1000
+
+To calculate specificity of complex selector:
+for example,
+
+h1.yellow
+{
+  color:yellow;
+}
+specificity will be= h1(specificity is 1) + yellow(specificity is 10) = 1+10 = 11
+since it has more specificity than any others,so color will be yellow.
+
+a.classes.rohit-class[href]:hover
+{
+  color: blue;
+}
+Specificity  will be= a(specificity=1/element selector)+classes(specificity=10/class selector)+rohit-class(specificity=10/class selector)+[href](specificity=10/Attribute selector)+:hover(specificity=10/pseodo selector)
+= 1+10+10+10+10 = 41.
+
+
+note:
+
+when you add !important, then specificity will be 10000. That contains more specificity than any others.

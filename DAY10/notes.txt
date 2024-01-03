@@ -1,0 +1,72 @@
+    for video___________
+         SRC -  specifies the path  of the video file
+         CONTROLS - add controls to video file play pause etc
+         POSTER -  add image to a video file like youtube thumbnails
+         AUTOPLAY - play video automatically
+         MUTED - video already muted
+    
+    for Audio________________________________
+        SRC: Specifies the path to the audio file.
+        CONTROLS: Adds audio controls, like play, pause, and volume.
+        AUTOPLAY: Automatically starts playing the audio when the page loads.
+        LOOP: Repeats the audio once it ends.
+        MUTED: Mutes the audio by default.
+        PRELOAD: 
+        Specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').
+ 
+
+#The "preload" attribute can have the following values:
+
+none: This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when the user initiates playback.
+
+metadata: This value tells the browser to preload only the metadata of the audio file, such as its duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without fully loading the audio data.
+
+auto: This value instructs the browser to preload the entire audio file as much as possible without delaying the loading of other important page content. The browser will try to load the audio file in the background so that it's ready to play when the user decides to start it.
+    
+
+    you can embed different website using iframe tag.
+    iFrames in HTML
+iFrames, or Inline Frames, are an integral part of modern web development. They allow you to embed another HTML page within your current page. In this blog, we'll delve into the utility of iFrames, their attributes, and some use-cases.
+
+What is an iFrame?
+An iFrame is an HTML element that enables an inline frame for the embedding of external content. Essentially, you can load another web page within a designated area of your current webpage.
+
+Why Use iFrames?
+iFrames offer a variety of use-cases:
+
+Content Isolation: iFrames allow you to isolate third-party content, which can improve security.
+
+Modularity: Easily embed external plugins, widgets, or content.
+
+Resource Separation: Content within an iFrame can load separately from the rest of the page.
+
+Basic Syntax
+The basic syntax of an iFrame is quite straightforward:
+
+<iframe src="URL" width="width" height="height"></iframe>
+
+Attributes of iFrame
+
+Several attributes can enhance the functionality of an iFrame:
+
+src: Specifies the URL of the page to embed.
+
+height and width: Define the dimensions.
+
+frameborder: Indicates whether to display a border.
+
+scrolling: Controls the scrollbars.
+
+name: For targeting the iFrame in JavaScript.
+
+Practical Examples
+
+Embedding a YouTube Video
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+Embedding Google Maps
+
+<iframe src="https://maps.google.com/maps?q=LOCATION&output=embed" frameborder="0"></iframe>
+
+Conclusion
+
+iFrames offers a convenient way to embed external content into your web pages. Their flexibility and ease of use make them an invaluable tool for modern web development.

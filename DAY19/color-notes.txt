@@ -1,0 +1,18 @@
+Colors can be represented as :
+    1.Color keywords: orignial color ke like red, dark green, yellow etc
+    
+
+    2.HEX color code:   #000f45, #000fff -- this lind of code called HEX color code.
+
+
+    3.RGB:   rgb(red, green, blue)
+
+
+    4.RGBA:  rgba(red, green, blue, alpha)
+
+
+    5.HSL:  hsl(hue, saturation, lightness)
+
+           ( hue)-represents the types of color
+          ( saturation) -represents the intenisity/purity
+           (lightness) - represents lightness

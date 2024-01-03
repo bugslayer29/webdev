@@ -1,0 +1,65 @@
+ 1. p
+ {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+        here, 'segeo UI' is main-font and rest are fall-back-font
+
+2.  Always use generic fonts like 'san-arif', 'times new roman' or 'coui' so that every user can use it on their own system.
+
+3. Use (FONT-STYLE) for Itallic/oblique/normal.
+
+4. use (FONT-WEIGHT) for Bold/bolder/lighter.
+
+5. use (TEXT-DECORATION) for Underline/overline.
+you can change 
+
+    (TEXT-DECORATION COLOR) also by using text0decoroation color property. This will help you when you will create navigtation bar kind of thing.
+
+    (TEXT DECORATION STYLE)
+       you can change text decoration style by using this property like ditted, solid, wavy, inherit etc.
+    
+     (TEXT DECORATION THICKNESS)
+       you can change text decoration thickness whether it is underline/overline, you can do it by suing this property.
+     
+      (TEXT INDENT )
+       To indent meaning to begin text with a blank space between it and the margin.
+
+       (TEXT-OVERFLOW)
+          1. HIDEN : It will hide the text outside the box.
+          2.ELIPSIS : text box ke bahr jyga but dikhega nhi.
+          3. CLIP : overflow text me dotted views ayengi.
+          4. WORD-BREAK : It will break the overflowed words and you can see it in next line.
+
+        (TEXT-ALIGN)  
+           1.(CENTRE) : you can centre the text using this property.
+
+
+
+
+
+           
+6. how to (import font from google fonts)?
+       > go to google fonts
+       > select whatever font you want to use 
+       > go to import section
+       > copy the import link and paste in css file, you can also copy css properties for that font.
+
+7. (FONT-SIZE)
+       you can increse your size of font using font size properties.
+
+8.(LINE-HEIGHT >> spacing between two lines is called line height)
+       you can increse of decrease spacing between two lines using line height property.
+
+       DEFAULT VALUE OF LINE HEIGHT SHOULD BE BETWEEN 110% - 120%
+
+9. (LETTER SPACING)
+       you can increse of decrease spacing between letters using LETTER SPACING property. 
+
+10. (TEXT-TRANSFORMATION PROPERTIES)
+     
+     you can capitalise first letter of  your text using this properties.
+     you can convert whole text into uppercase/lowercase using this property.
+
+
+
+                    

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        /* ELEMENT SELECTORS  */
+        div{
+            background-color: rgb(221, 255, 0);
+        }
+        /* CLASS SELECTORS */
+        .red{
+            background-color: red;
+        }
+        /* ID SELECTORS */
+        #green{
+            background-color: green;
+        }
+        /* CHILD SELECTORS */
+        div>p{
+            color: yellow;
+            background-color: black;
+        }
+        /* DECSENDENT SELECTORS */
+        div h4{
+            color: rgba(215, 238, 130, 0.975);
+        }
+        /* UNIVERSAL SELECTORS when you want a property to apply at all elements, use universal selectors */
+        *{
+            margin: 0;
+            padding:0;
+        }
+        /* PSEODO SELECTORS 
+        when you want to change the color of anchor tag to any color after visiting, use A:VISITED
+        when you want to change the color of anchor tag to any color before visiting, use A:LINK
+        when you want to change the color of anchor tag to any color while clicling on that link, use A:ACTIVE
+        when you want to change the color of anchor tag to any color while hovering on that link, use A:HOVER
+        
+         */
+        a:visited{
+            color: firebrick;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: black;
+        }
+        a:hover{
+            background-color: peru;
+        }
+        /* attribute selector 
+        means wo element jiska data-x=A hai use green kr do */
+        [data-x=A]
+        {
+            background-color: rgb(13, 219, 68);
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="green">
+        <article>
+            <p> this is paragraph inside article inside div</p>
+        </article>
+        This is second div</div>
+    <DIV class="red"> This is div
+        <p> 
+            I am a para inside a div
+        </p>
+        <h4>I am heading4 inside div</h4>
+    </DIV>
+    
+    <a href="https://www.google.com">GO TO GOOGLE</a>
+    <a href="https://www.facebook2.com">GO TO facebook2</a>
+
+    <p data-x="A">this is para to demonstrate attribute selector</p>
+</body>
+</html>

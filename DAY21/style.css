@@ -1,0 +1,26 @@
+h1
+{
+    color:aqua;
+}
+
+.yellow
+{
+    color:yellow;
+}
+
+.cred
+{color: red;;
+
+
+}
+
+.cpurple
+{
+    color: purple;
+}
+
+/* attribute selector */
+[data-x=a]
+{
+    color: rgb(14, 234, 190);
+}

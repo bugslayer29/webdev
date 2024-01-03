@@ -1,0 +1,26 @@
+p{
+    background-color: blue;
+    color:antiquewhite;
+
+}
+  div p:first-child
+  {
+    background-color: yellow;
+    color: red;
+  }
+
+
+/* you can also use :nth-child() properties to create this . */
+
+/* div p:nth-child(1)
+{
+
+    background-color: yellow;
+    color: red;
+}  
+
+nth child means div ke andar kitne number ke p ko target krna chah rhe
+suppose, div ke andar 3rd para ko target kr rhe to nth-child = nth-child(3).
+
+
+*/
