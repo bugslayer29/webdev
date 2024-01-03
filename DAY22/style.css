@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.box
+{
+    border: .4VW solid yellow;
+    background-color: pink;
+    color: red;
+    width: 80vw;
+    margin:auto;
+
+}
+
+.container
+{
+    border: .4VW solid yellow;
+    background-color: pink;
+    color: red;
+    width: 80vw;
+    height: 80vh;
+    margin: 2vw auto;
+    font-size: 18px;
+    min-height: 80vh;
+    /* min-height: 80vh; so that if container has less contents then height will be same as of now! and max-height: no limits; */
+    /* (4vh) is top-bottom margin and (auto) is left right margin */
+
+} 
+
+.container .p
+{
+   font-size: 1em;
+   
+}
+   /* this will inherit (.container) font size and when you increse (.container .p) font-size: 1em; then pixel unit will also increase. 
+   
+   .container .p
+   {
+    font-size: 2em;
+   }
+  if font size will  2em then font size in pixel will be double.
+
+  .container
+  {
+    font-size : 36px;
+  } like this.
+   */
+
+/* 
+html
+{
+    font-size: 12px;
+} */
+
+/* html is a root element 
+and 
+font size of root element is 12px also if font size of .container .p is 2rem 
+then font size will be 12*2 = 24.
+because (rem) is for root element like html */
+
+
+.mycont
+{
+   border: 2px solid black;
+   box-sizing: border-box;
+   margin: 23px auto;
+   color: black;
+   font-size: 22px;
+   width: 80vw;
+   
+}
