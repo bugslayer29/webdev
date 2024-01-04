@@ -14,4 +14,12 @@
 .box1
 {
     border: 2px solid red;
+    display: inline;
 }
+
+.box2
+{
+    border: 2px solid yellow;
+    display: inline;
+}
+/* when you add (display:inline) property, it convert div(block element) into inline element.  */
