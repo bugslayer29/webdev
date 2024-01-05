@@ -1,4 +1,4 @@
-box-shadow: h-offset v-offset blur spread color inset;
+BOX-SHADOW : h-offset v-offset blur spread color inset;
 
         h-offset and v-offset: Determines the shadow's horizontal and vertical position.
         blur:                  The larger the value, the blurrier the shadow.
@@ -6,9 +6,32 @@ box-shadow: h-offset v-offset blur spread color inset;
         color:                 Defines the shadow color.
         inset:                 Makes the shadow inner.
 
+       BOX-SHADOW is a popular CSS property that enables designers to add shadow effects around an element's frame. It can be used to give any element, be it a div, image, or button, a 3D feel or to emphasize on hover.
+
    for example :
       .box 
       {
         box-shadow: 5px         5px        15px   5px       #888888;  
         box-shadow: h-offset    v-offset   blur   spread    color ; [inset(inside the box)/outset(outside the box)];
-      }     
+      }    
+
+
+TEXT-SHADOW : h-offset v-offset blur color;
+              .text-element
+
+               { 
+                    text-shadow:   2px       2px       4px     #888888; 
+                                   h-offset  v-offset  blur    color;
+               }
+
+          Text-shadow is utilized to give shadows specifically to the text. It can elevate the readability of the text or give it an elegant appearance.       
+
+OUTLINE :
+An outline is a line that is drawn around elements, outside the borders, to make the element "stand out". It's commonly used for accessibility purposes, like highlighting focused elements.
+          
+          outline: width style color;
+          outline: 2px   solid blue;
+          
+width: Sets the outline width.
+style: Determines the style of the outline such as solid, dotted, or dashed.
+color: Sets the outline color.
