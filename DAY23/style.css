@@ -15,11 +15,17 @@
 {
     border: 2px solid red;
     display: inline;
+    padding: 45px;
+    margin: 45px;
 }
 
 .box2
 {
     border: 2px solid yellow;
-    display: inline;
+    display: inline-block;
+    /* inline element margin-top ya padding-top ya width ki support nhi krte that's why we have to change display: inline-block; from display: inline; to make sure that margin/padding/width added successfully form eveywhere.  */
+    padding: 45px;
+    margin: 45px;
 }
-/* when you add (display:inline) property, it convert div(block element) into inline element.  */
+/* when you add (display:inline) property, it convert div(block element) into inline element.
+inline elements ekdusre ke aju baju ate hai  */
