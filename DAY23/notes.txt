@@ -11,3 +11,6 @@
 4.  visibility : hidden;
 
     It means box to gyb hoga but covered space rah jygi.     
+
+To know more about Display property: go to this link .
+https://developer.mozilla.org/en-US/docs/Web/CSS/display 
