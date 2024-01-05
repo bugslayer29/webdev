@@ -1,0 +1,13 @@
+ 1.Display: inline; property
+     To make block element inline, we add Display:inline; property
+
+2. Display:inline-block;
+    Inline element margin-top ya padding-top ya width ko support nhi krte that's why we have to change display: inline-block; from display: inline; to make sure that margin/padding/width added successfully form eveywhere.  
+
+3.   Display:none;
+
+     It means ki wo box gayab ho jyga aur uski covered space v.
+
+4.  visibility : hidden;
+
+    It means box to gyb hoga but covered space rah jygi.     
