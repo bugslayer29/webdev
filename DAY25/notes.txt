@@ -1,0 +1,50 @@
+1. list style:
+
+To style  lists , we can change the list item marker.
+
+Syntax:
+
+li {
+    list-style-type: value;
+}
+
+ It has many values like:
+
+for ordered list:
+
+    auto (1,2,3)
+    decimal(1,2,3)
+    decimal-leading-zero (01,02,03)
+    devanagari( 1,2,3 in hindi)
+    lower-alpha(a, b, c)
+    lower-greek(alpha, beta, gamma)
+    lower-latin(a, b, c)
+    lower-roman(i,ii,iii)
+    none ( no marker)
+    upper-alpha(A, B, C)
+    upper-roman(I,II,III)
+    
+for unordered list:
+
+    square(black dot in square shape)
+    inside(black dotted circle)
+    outside(black dotted circle)
+    initial(black dotted circle)
+    inherit(black dotted circle)
+    disk(black dotted circle)
+    circle(blank circle)
+
+2. list style position
+
+    if outside : marker will be saperated from list
+    if inside : marker will be inside the list 
+
+3. you can add emoji to the list marker.
+
+      list-style-type:"😭";
+       [to get emoji to the keyboard:
+          type (windows key + .)]
+
+4. you can add image to the list marker.
+  
+            
