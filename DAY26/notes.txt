@@ -1,4 +1,4 @@
-CSS Overflow :
+1.CSS Overflow :
 
 Sometimes the content shown is too large to be visible in a single line or division of the website. So, to avoid loss of that information we can use overflow property.
 
@@ -13,3 +13,17 @@ overflow : hidden;
 
 overflow : auto;
 It is quite similar to scroll but the scroller is only added when the content starts getting out of the container. Mostly this option is used to avoid unnecessary scroll bars if the content already is within the content dimensions.
+
+2. Whitespace not wrap:
+
+   a.  white-space: nowrap;
+       nowrap	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered
+
+3. overflow-x and overflow-y
+
+
+The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
+
+overflow-x specifies what to do with the left/right edges of the content.
+
+overflow-y specifies what to do with the top/bottom edges of the content.   

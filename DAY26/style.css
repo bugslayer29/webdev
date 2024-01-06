@@ -37,3 +37,47 @@
 
 
 }
+
+.box4
+{
+    border: 2px solid black;
+    overflow: auto;
+    white-space: nowrap;
+     height: 10vh;
+    width: 20vw;
+    /* nowrap	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered */
+}
+
+.box5
+{
+    border: 2px solid black;
+    overflow: auto;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+   /* (text-overflow: ellipsis;) +
+   (white-space: nowrap;)
+   senteces appear as a dotted after somepoint.
+   */
+ 
+}
+
+.box6
+{
+    border:2px solid black;
+   overflow-y: auto;
+    overflow-x: hidden;
+     height: 10vh;
+    width: 20vw;
+    white-space: nowrap;
+    /* niche wala scroll bar hidden ho jyga */
+}
+
+.box7
+{
+   border: solid 2px black;
+   height: 10vh;
+   width: 20vw;
+   overflow-x: auto;
+   overflow-y: hidden;
+   white-space: nowrap;
+}
