@@ -1,0 +1,25 @@
+1. Position static: 
+    
+    Static positioning is the default positioning model for elements. They are displayed in the page where they rendered as part of normal HTML flow. Statically positioned elements don't obey left, top, right and bottom .
+
+
+2. Position relative :
+
+     Relative positioning allows you to specify a specific offset (left, top etc) which is relative to the element's normal position in HTML flow. So if I have a textbox inside a div I could apply relative positioning on the textbox to have it display at specific place relative to where it would normally be placed within the div.
+
+
+3. Position fixed :
+
+    An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
+
+
+4. position sticky :
+
+    The element will scroll along with its container, until it is at the top of the container (or reaches the offset specified in top ), and will then stop scrolling, so it stays visible.
+
+
+NOTE :
+
+ Transform, Filter, or perspective property can also make an element appear as positioned.
+
+ 
