@@ -3,6 +3,10 @@
 {
     --color:rgb(142, 228, 30);
     --sec-color :rgb(3, 13, 15);
+    --defpad: 23px;
+    /* defpad : default padding */
+    --defop: 0.1;
+    /* defop: default opacity */
 }
 
 
@@ -15,7 +19,8 @@
 
 ul li{
     list-style: none;
-    padding: 34px;
+    padding: var(--defpad);
+    opacity: var(--defop);
     
 }
 
