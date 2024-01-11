@@ -1,0 +1,101 @@
+:root
+{
+  --blue : blue;
+  --red : red;
+  --yellow: yellow;
+  --pink : pink;
+  --aqua : aqua;
+  --white: white;
+  --bluevoilet: blueviolet;
+
+}
+
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar
+{
+    background-color:var(--aqua);
+   border: 2px solid orange; 
+   display: flex;
+   width: 100vw;
+   height: 8vh;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.home
+{
+    background-color: var(--yellow);
+    color: var(--red);
+    border: 13px solid var(--yellow);
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contact
+{
+    background-color: var(--yellow);
+     border: 13px solid var(--yellow);
+      font-size: large;
+    font-weight: 700;
+    color: var(--red);
+    cursor: pointer;
+    
+}
+
+.about
+{
+    background-color: var(--yellow);
+     border: 13px solid var(--yellow);
+      font-size: large;
+    font-weight: 700;
+    color: var(--red);
+    cursor: pointer;
+}
+
+.address
+{
+    background-color: var(--yellow);
+     border: 13px solid var(--yellow);
+      font-size: large;
+    font-weight: 700;
+    color: var(--red);
+    cursor: pointer;
+}
+
+.home:hover
+{
+color:var(--bluevoilet);
+}
+.about:hover
+{
+color: var(--bluevoilet);
+}
+.address:hover
+{
+color: var(--bluevoilet);
+}
+.contact:hover
+{
+color: var(--bluevoilet);
+}
+
+body{
+    background-color: pink;
+}
+
+.content
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--red);
+    border: 2px solid aqua;
+}
