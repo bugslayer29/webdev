@@ -42,3 +42,5 @@ img{
     width: 200px;
     /* float:left ------> image will float to left and allow content to move into right. */
 }
+
+               /* NOTES : DON'T USE FLOAT AND CLEAR, JUST USE FLEXBOX TO CREATE LAYOUT. */
