@@ -1,0 +1,44 @@
+.card
+{
+    border: 2px solid black;
+    margin: 1px;
+    padding: 1px;
+   display: flow-root;
+   /*  display: flow-root; ------> we can fit image inside the container using  display: flow-root; */
+   
+
+}
+
+.card1
+{
+    border: 2px solid red;
+     margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.card2
+{
+    border: 2px solid red;
+     margin-top: 1px;
+    margin-bottom: 1px;
+    clear: left;
+    /*  clear: left; ----> It won't all0w any element on it's left side. 
+         clear: right; ----> It won't all0w any element on it's right side. 
+
+         clear: both;----> It won't all0w any element on it's both side. 
+         */
+
+}
+
+.card3
+{
+    border: 2px solid red;
+     margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+img{
+    float: left;
+    width: 200px;
+    /* float:left ------> image will float to left and allow content to move into right. */
+}
