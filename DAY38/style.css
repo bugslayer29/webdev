@@ -1,0 +1,36 @@
+.container1
+{
+   
+    border: 2px solid red;
+}
+
+.container2
+{
+   
+    border: 2px solid red;
+    display: flex;
+    /* to make container a flex */
+}
+
+.container3
+{
+   
+    border: 2px solid red;
+    display: flex;
+    align-items:center;
+    /* to make items vertically centre */
+    height: 30vh;
+    justify-content: center;
+    /* to make items horizontally centre */
+
+}
+.items
+{
+    border: 2px solid blue;
+    height: 12px;
+    width: 12px;
+    margin: 4px;
+    padding: 4px;
+    background-color: red;
+}
+
