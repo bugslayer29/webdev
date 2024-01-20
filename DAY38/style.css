@@ -7,7 +7,7 @@
 .container2
 {
    
-    border: 2px solid red;
+    border: 2px solid rgb(123, 0, 255);
     display: flex;
     /* to make container a flex */
 }
