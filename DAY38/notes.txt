@@ -1,0 +1,35 @@
+flexbox properties :  
+
+    To make container a flex, we use display flex property.
+    
+
+  1.Flex Direction :
+It defines in which direction the flex elements would be displayed. It takes values like row, column or “reverse” too.
+
+ 2. Flex Wrap :
+By using this property we can make our elements responsive for different screen sizes. 
+       
+       .flex-container {
+            display: flex;
+            flex-direction: row;
+            background-color: yellowgreen;
+            flex-wrap: wrap;
+        }
+
+3. justify-content -
+
+        Baseline : Specifies participation in first-baseline alignment.
+
+        center : Flex items are packed toward the center of the line.
+
+        End : The items are packed flush to each other toward the end edge of the alignment container in the main axis.
+
+        First-baseline : Specifies participation in first-baseline alignment.
+
+        Flex-end : Flex items are packed toward the end of the line.
+
+        
+
+        
+
+
