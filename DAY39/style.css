@@ -1,0 +1,16 @@
+.container
+{
+    border: 2px solid blueviolet;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.items
+{
+    border: 2px solid red;
+    height: 10vh;
+    width: 10vw;
+   
+}
