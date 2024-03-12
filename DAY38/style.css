@@ -24,13 +24,44 @@
     /* to make items horizontally centre */
 
 }
+
+.container4
+{
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .items
 {
     border: 2px solid blue;
-    height: 12px;
-    width: 12px;
+    height: 120px;
+    width: 80px;
     margin: 4px;
     padding: 4px;
+  
     background-color: rgb(217, 255, 0);
 }
 
+.container5
+{
+    border: 3px solid green;
+    height: 30vh;
+    
+    margin: 50px;
+padding: 20px;
+display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+.items1
+{
+    border: 2px solid red;
+    height: 5vh;
+    width: 5vw;
+    margin: 4px;
+   
+}

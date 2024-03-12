@@ -34,7 +34,42 @@ By using this property we can make our elements responsive for different screen 
      row-gap : gap between rows
      column-gap  : gap between column
         
+5. container properties :
+    
+    1. display:flex;
+    2. flex-wrap : wrap;
+    3. align-items: centre;
+    4. align-content: flex-start;
+    5. flex-flow: row wrap;
+    6. gap : 4px 8px;
 
-        
+6. items properties :
+
+   1. order : 
+
+     syntax :
+                   jis itmes ka order sabse kam wo sbse pahle place hoga. jiska sbse jyada, wo sbse last me.       
+           
+             .order-1
+                 {
+                  order : 10;
+                 } 
+
+                   .order-2
+                 {
+                  order : 34;
+                 } 
+
+                 isme order-1 wala item phle place hoga and order-2 wALA Item last me.
+
+    2. flex-grow :
 
 
+          flex-grow : 3;
+          means 3 items ki space akele flex-grow : 3 wala item lega.
+
+    3. flex-shrink : 
+
+
+          flex-shrink : 3;
+            means if the size of the all flex items is larger than the flex container, then itme shrink to fit according to flex-shrink.
