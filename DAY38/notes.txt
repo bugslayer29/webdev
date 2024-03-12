@@ -28,6 +28,11 @@ By using this property we can make our elements responsive for different screen 
 
         Flex-end : Flex items are packed toward the end of the line.
 
+
+4. Gap property : defines gap betweeen the items.
+     
+     row-gap : gap between rows
+     column-gap  : gap between column
         
 
         
