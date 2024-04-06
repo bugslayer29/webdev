@@ -1,0 +1,30 @@
+
+
+body
+{
+    background-color: rgba(240, 234, 234, 0.314);
+}
+
+
+.navbar
+{
+   display: flex;
+}
+
+
+
+
+
+
+.nav-list
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left: 720px;
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:solid;
+    font-weight: 300;
+}
+
