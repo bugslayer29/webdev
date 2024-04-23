@@ -1,0 +1,77 @@
+.container
+{
+    
+    background-color: beige;
+    display: flex;
+    height: 100vh;
+    
+  
+    
+}
+
+#box1
+{
+    align-self: center;
+}
+
+#box3
+{
+    align-self: center;
+}
+
+#box5
+{
+    align-self: center;
+    justify-content: ;
+}
+
+.box
+{
+    height: 10vh;
+    width: 10vw;
+    border: 2px solid purple;
+  
+}
+
+
+#box1{
+background-color: aqua;
+
+}
+
+#box2{
+    background-color: mediumslateblue;
+}
+
+#box3{
+    background-color: lightsalmon;
+}
+
+#box4{
+    background-color: palevioletred;
+}
+
+#box5{
+    background-color: burlywood;
+}
+
+
+
+.container2
+{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(84, 73, 211);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes
+{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    height: 80px;
+    width: 110px;
+    background-color: pink;
+}

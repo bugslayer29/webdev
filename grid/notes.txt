@@ -1,0 +1,46 @@
+
+        GRID TEMPLATE column AND row: 
+
+You can define how many columns and how many rows should be there in a grid.
+
+      1. grid-template-columns:  120PX 100PX;
+
+      which means you need first column of 120px and second column of 100px.
+
+      2.  grid-template-row:  100PX 100PX 100px;
+
+      which means you need first row of 100px, second row of 100px and third row of 100px.
+
+      3. grid-row : 1/2;
+     
+     means grid item placed from first row to second row.
+
+     you can also write it as 
+
+         grid-row-start : 1;
+         grid-row-end : 2;
+
+         and same for column.
+
+
+
+         GRID TEMPLATE AREA :
+
+
+another method to create rows and columns in grid.
+                            col-1       col-2      col-3
+  grid-template-areas: row1- "nav       nav        nav"
+                       row2- "side      article    article"
+                       row3- "footer    footer     footer"
+                       rpw4- "left-foot right-foot right-foot";
+
+to target grid-rows/column for your items, you can use syntax in your itmes like 
+
+grid-area : side; to target row-2 col-1 
+
+
+
+
+you can create gap by using 
+
+gap : 10px; 

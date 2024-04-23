@@ -1,0 +1,23 @@
+.container
+{
+
+    height: 100vh;
+    background-color: rgb(202, 188, 171);
+    border: 1px solid pink;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                        "side article article"
+                        "footer footer footer"
+                        "left-foot right-foot right-foot";
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: 2px solid yellow;
+}
