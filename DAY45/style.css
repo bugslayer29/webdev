@@ -1,0 +1,28 @@
+.container
+{
+    background-color: rgba(84, 68, 68, 0.536);
+    width: 50vw;
+    height: 40vh;
+   
+}
+
+.box
+{
+   
+    
+    background-color: aqua;
+    height: 5vh;
+    width: 4vw;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;  
+    transition-delay: 1s;
+    
+
+}
+
+.translate
+{
+    transform: translateX(10vw) translateY(10vh );
+    background-color: rebeccapurple;
+}

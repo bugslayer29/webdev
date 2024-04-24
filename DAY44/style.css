@@ -4,12 +4,12 @@
     grid-template-columns: 1100px 100px 100px 100px 100px ;
     justify-content: center;
     align-items: center;
-    background-color: rgb(99, 209, 202);
+    background-color: rgb(239, 215, 198);
 }
 
 .items
 {
-    border: 1px solid rgb(136, 245, 136);
+    border: 1px solid rgb(232, 198, 184);
     background-color: rgb(4, 208, 249);
     height: 50px;
     width: 80px;
