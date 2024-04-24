@@ -1,3 +1,11 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
 .container
 {
     border: 2px solid blueviolet;
@@ -9,8 +17,17 @@
 .box
 {
     background-color: burlywood;
-    height: 50vh;
-    width: 20vw;
-    transform: rotate(0.5turn);
+    height: 5vh;
+    width: 2vw;
+    /* transform: rotatez(9deg); */
+    /* transform: rotate(0.5turn); */
+    /* transform: skewY(34deg);   transform: skewX(34deg); */
+    /* transform: translateY(100%); */
+    /* if you want to add multiple transform property  then you add spaces and add properties to it. */
+    /* transform: translateY(100%) skewX(40deg) translateX(45%);  */
+
+    /* generally we use translate property when you use navbar  */
+
+    transform: translate(-100px);
 }
 
