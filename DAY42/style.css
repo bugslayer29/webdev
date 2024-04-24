@@ -1,0 +1,16 @@
+.container
+{
+    border: 2px solid blueviolet;
+    height: 80vh;
+    width: 40vw;
+
+}
+
+.box
+{
+    background-color: burlywood;
+    height: 50vh;
+    width: 20vw;
+    transform: rotate(0.5turn);
+}
+
