@@ -1,0 +1,9 @@
+img{
+    /* filter: blur(1px); */
+    /* filter: grayscale(100%); image will be black and white */
+/* filter: contrast(4px); you can change the contrast of the image */
+/* filter: sepia(5px); it will convert image into redish black and white */
+}
+
+
+/* you can refer more filter from MDN Webdocs. */

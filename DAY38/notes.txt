@@ -16,6 +16,10 @@ By using this property we can make our elements responsive for different screen 
             flex-wrap: wrap;
         }
 
+
+
+
+
 3. justify-content -
 
         Baseline : Specifies participation in first-baseline alignment.
