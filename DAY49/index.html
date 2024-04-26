@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animation exersize</title>
+    <style>
+        .container
+        {
+            height: 100vh;
+            width: 80vw;
+            background-color: rebeccapurple;
+            display: flex;
+            align-items: end;
+        
+           }
+ 
+
+
+           .box
+        {
+            height: 70px;
+            width: 70px;
+            background-color: palevioletred;
+            border: 2px solid black;
+            border-radius: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: animateX 1s linear infinite , animateY 1s  ease-in infinite alternate;
+        }
+
+
+@keyframes animateX{
+    from{
+            left: 0;
+    }
+
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes animateY{
+    from{
+           bottom: 0;
+    }
+
+    to{
+        bottom: 100%;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
