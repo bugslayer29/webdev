@@ -10,4 +10,6 @@ console.log("your name is " + a);
 
 // it will ask you to input a number first then it will print it inside the console.
 
-document.title = "hey i am the title of this document"
+document.title = "hey i am the title of this document";
+
+// you can change title of the dicoument.
