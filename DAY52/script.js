@@ -85,7 +85,7 @@ console.log(typeof x, typeof p, typeof k, typeof b, typeof q, typeof r)
         // here, name & price is Key and "led bulb" "159" is values pair.
         // you can add keys or values like 
 
-                        //  item.  "quantity" : "100",
+                        //  item   ["quantity"] : "100",
 
                         let t = {
                             "name": "aryan",
@@ -93,6 +93,30 @@ console.log(typeof x, typeof p, typeof k, typeof b, typeof q, typeof r)
                           };
                           console.log(t);
                           
-                          t["job_location"] = "bangalore"; // Corrected assignment using square brackets
+                          t["job location"] = "bangalore"; // Corrected assignment using square brackets
                           console.log(t);
                           
+
+                        //   create a varible of type string and try to add number to it
+
+                        let s = "aman";
+                        let num = 2;
+                        console.log(s + num)
+                        // output is aman2
+
+                        // use typeof operator to find datatype of string 
+                        let g = "ravi";
+                        console.log(typeof g)
+                        // output is string
+
+                    //   write a javascript program to create a word meaning dictionary of 5 words.
+
+                    let dictionary = 
+                    {
+                        "a" : "affirmation",
+                        "c" : "consistency",
+                        "d" : "determinatin",
+                        "e" : "efficiency",
+                        "h" : "hardwork"
+                    }
+                    console.log(dictionary)
